@@ -8,7 +8,7 @@ export default function FAQPage() {
         <div>
           <h2 className="font-semibold text-xl mb-2">Do you provide emergency plumbing services?</h2>
           <p className="text-gray-600 dark:text-gray-300">
-            Yes, we offer 24/7 emergency plumbing services. If you have a burst pipe, leaking boiler, or any urgent plumbing issue, call us immediately and we’ll be there as soon as possible.
+            Yes, we offer 24/7 emergency plumbing services. If you have a burst pipe, leaking boiler, or any urgent plumbing issue, call us immediately and we&apos;ll be there as soon as possible.
           </p>
         </div>
 
@@ -29,21 +29,21 @@ export default function FAQPage() {
         <div>
           <h2 className="font-semibold text-xl mb-2">Can you install underfloor heating?</h2>
           <p className="text-gray-600 dark:text-gray-300">
-            Yes, we install both water-based and electric underfloor heating systems. We’ll assess your property and recommend the best system for energy efficiency and comfort.
+            Yes, we install both water-based and electric underfloor heating systems. We&apos;ll assess your property and recommend the best system for energy efficiency and comfort.
           </p>
         </div>
 
         <div>
           <h2 className="font-semibold text-xl mb-2">Do you offer air source heat pump installations?</h2>
           <p className="text-gray-600 dark:text-gray-300">
-            Yes, we specialise in Air Source Heat Pump (ASHP) installations for residential and commercial properties. It’s an energy-efficient alternative to traditional heating systems.
+            Yes, we specialise in Air Source Heat Pump (ASHP) installations for residential and commercial properties. It&apos;s an energy-efficient alternative to traditional heating systems.
           </p>
         </div>
 
         <div>
           <h2 className="font-semibold text-xl mb-2">What areas do you cover?</h2>
           <p className="text-gray-600 dark:text-gray-300">
-            We are based in Luton and cover surrounding areas including Bedfordshire, Hertfordshire, and North London. For larger projects, we’re happy to travel further.
+            We are based in Luton and cover surrounding areas including Bedfordshire, Hertfordshire, and North London. For larger projects, we&apos;re happy to travel further.
           </p>
         </div>
 

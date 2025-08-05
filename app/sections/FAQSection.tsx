@@ -9,7 +9,7 @@ const faqs = [
   {
     question: 'Are You Gas Safe Registered?',
     answer:
-      'Yes, you can also check TDC Plumbing & Heating’s registration on the Gas Safe website.',
+      'Yes, you can also check TDC Plumbing & Heating registration on the Gas Safe website.',
   },
   {
     question: 'Do you have a call-out charge?',

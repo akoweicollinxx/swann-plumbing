@@ -13,7 +13,7 @@ const testimonials = [
     author: 'Jill Charman',
   },
   {
-    quote: `From the initial consultation to the final handover, the service was outstanding. The system works flawlessly, and we’re already seeing savings on our energy bills. Great communication throughout the whole process!`,
+    quote: `From the initial consultation to the final handover, the service was outstanding. The system works flawlessly, and we are already seeing savings on our energy bills. Great communication throughout the whole process!`,
     author: 'Mark Davies',
   },
   {
@@ -77,7 +77,7 @@ export default function TestimonialsSection() {
             {testimonials.map((t, idx) => (
               <SwiperSlide key={idx}>
                 <div className="relative bg-purple-700 text-white rounded-2xl p-8 sm:p-10 min-h-[260px] shadow-lg">
-                  <span className="absolute text-5xl opacity-30 top-4 left-6">“</span>
+                  <span className="absolute text-5xl opacity-30 top-4 left-6"></span>
                   <p className="text-base sm:text-lg leading-relaxed mb-6 mt-2 sm:mt-6 z-10 relative">
                     {t.quote}
                   </p>

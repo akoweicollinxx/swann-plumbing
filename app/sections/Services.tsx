@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, Variants } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+
 
 const cardVariants: Variants = {
   hidden: { opacity: 0, y: 50, scale: 0.95 },
@@ -53,7 +53,7 @@ export default function ServicesSection() {
           {
             img: '/air-source.PNG',
             title: 'ASHP Installation',
-            desc: 'Whether you\'re upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.',
+            desc: 'Whether you are upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.',
           },
         ].map((service, i) => (
           <motion.div

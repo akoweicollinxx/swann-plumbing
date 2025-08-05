@@ -29,7 +29,7 @@ export default function HeroSection() {
           className="max-w-xl text-center md:text-left"
         >
           <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-6">
-            West London’s Local Plumbing, Heating <br className="hidden md:block" /> & Gas Specialists.
+            West London&apos;s Local Plumbing, Heating <br className="hidden md:block" /> & Gas Specialists.
           </h1>
           <div className="flex justify-center md:justify-start">
             <button className="bg-purple-700 hover:bg-purple-800 transition-colors px-6 py-3 rounded-md font-semibold text-white">

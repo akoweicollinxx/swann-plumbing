@@ -43,7 +43,7 @@ export default function ServicesSection() {
             <img src="/air-source.PNG" alt="Boiler Installations" className="w-12 h-12" />
             <h3 className="font-semibold text-lg">ASHP Installation</h3>
             <p className="text-gray-600">
-              Whether you're upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.
+              Whether you&apos;re upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function ServicesSection() {
       <section className="relative bg-cover bg-center py-20 px-4 text-white" style={{ backgroundImage: 'url("/stove.JPG")' }}>
         <div className="absolute inset-0 bg-black/70 z-0" />
         <div className="relative z-10 max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Don’t get left in the cold!</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Don&apos;t get left in the cold!</h2>
           <p className="text-gray-300 mb-6">
             We sometimes run special offers and discounts on boiler installations and checkups. <br />
             Book an appointment today to find out more.
