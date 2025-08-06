@@ -63,7 +63,7 @@ export default function ServicesSection() {
             />
             <h3 className="font-semibold text-lg">ASHP Installation</h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Whether you're upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.
+              Whether you&apos;re upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.
             </p>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./sections/HeroSection";
 import Services from "./sections/Services";
 import GallerySection from "./sections/GallerySection";
