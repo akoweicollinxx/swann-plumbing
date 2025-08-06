@@ -20,17 +20,17 @@ const cardVariants: Variants = {
 export default function ServicesSection() {
   const services = [
     {
-      img: '/radiator.PNG',
+      img: '/radiator.png',
       title: 'Plumbing & Heating',
       desc: 'We offer comprehensive plumbing and heating services designed to keep your home running smoothly and efficiently — all year round.',
     },
     {
-      img: '/pipe.PNG',
+      img: '/pipe.png',
       title: 'Bathrooms Domestic & Commercial New Build',
       desc: 'Our solutions are built for durability, hygiene, and compliance with all current regulations.',
     },
     {
-      img: '/air-source.PNG',
+      img: '/air-source.png',
       title: 'ASHP Installation',
       desc: 'Whether you are upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.',
     },

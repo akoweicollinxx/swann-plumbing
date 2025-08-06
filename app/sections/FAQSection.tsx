@@ -103,7 +103,7 @@ export default function FAQSection() {
           className="w-full"
         >
           <Image
-            src="/boil.PNG"
+            src="/boil.png"
             alt="Boiler"
             width={500}
             height={600}

@@ -28,7 +28,7 @@ const Header = () => {
             <Link href="/" className="flex items-center">
               <div className="w-10 h-10 bg-black dark:bg-gray-500 rounded-lg flex items-center justify-center overflow-hidden">
                 <Image
-                  src="/logo.PNG"
+                  src="/logo.png"
                   alt="logo"
                   width={40}
                   height={40}
