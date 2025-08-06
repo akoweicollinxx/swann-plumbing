@@ -1,12 +1,12 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import Image from 'next/image';
 
 const testimonials = [
   {
@@ -27,7 +27,7 @@ export default function TestimonialsSection() {
   return (
     <section className="bg-gray-200 dark:bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Left Side with Animation */}
+        {/* Left Side */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -43,7 +43,12 @@ export default function TestimonialsSection() {
           <div className="flex items-center space-x-6">
             {/* Which */}
             <div className="flex items-center space-x-2">
-              <Image src="/Google.webp" alt="Which logo" className="h-6" />
+              <Image
+                src="/Google.webp"
+                alt="Which logo"
+                width={24}
+                height={24}
+              />
               <div>
                 <p className="text-yellow-400">★★★★★</p>
                 <p className="text-sm text-gray-400">71 Reviews</p>
@@ -51,7 +56,12 @@ export default function TestimonialsSection() {
             </div>
             {/* Google */}
             <div className="flex items-center space-x-2">
-              <img src="/Google.webp" alt="Google logo" className="h-6" />
+              <Image
+                src="/Google.webp"
+                alt="Google logo"
+                width={24}
+                height={24}
+              />
               <div>
                 <p className="text-yellow-400">★★★★★</p>
                 <p className="text-sm text-gray-400">78 Reviews</p>
@@ -60,7 +70,7 @@ export default function TestimonialsSection() {
           </div>
         </motion.div>
 
-        {/* Right Side: Carousel with Animation */}
+        {/* Right Side */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -78,7 +88,6 @@ export default function TestimonialsSection() {
             {testimonials.map((t, idx) => (
               <SwiperSlide key={idx}>
                 <div className="relative bg-purple-700 text-white rounded-2xl p-8 sm:p-10 min-h-[260px] shadow-lg">
-                  <span className="absolute text-5xl opacity-30 top-4 left-6"></span>
                   <p className="text-base sm:text-lg leading-relaxed mb-6 mt-2 sm:mt-6 z-10 relative">
                     {t.quote}
                   </p>
