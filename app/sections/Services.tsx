@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, Variants } from 'framer-motion';
-
+import Image from 'next/image';
 
 const cardVariants: Variants = {
   hidden: { opacity: 0, y: 50, scale: 0.95 },
@@ -18,6 +18,24 @@ const cardVariants: Variants = {
 };
 
 export default function ServicesSection() {
+  const services = [
+    {
+      img: '/radiator.PNG',
+      title: 'Plumbing & Heating',
+      desc: 'We offer comprehensive plumbing and heating services designed to keep your home running smoothly and efficiently — all year round.',
+    },
+    {
+      img: '/pipe.PNG',
+      title: 'Bathrooms Domestic & Commercial New Build',
+      desc: 'Our solutions are built for durability, hygiene, and compliance with all current regulations.',
+    },
+    {
+      img: '/air-source.PNG',
+      title: 'ASHP Installation',
+      desc: 'Whether you are upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.',
+    },
+  ];
+
   return (
     <section className="py-20 dark:bg-black bg-white text-black dark:text-white text-center">
       {/* Animated Heading */}
@@ -39,23 +57,7 @@ export default function ServicesSection() {
 
       {/* Services Grid */}
       <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-        {[
-          {
-            img: '/radiator.PNG',
-            title: 'Plumbing & Heating',
-            desc: 'We offer comprehensive plumbing and heating services designed to keep your home running smoothly and efficiently — all year round.',
-          },
-          {
-            img: '/pipe.PNG',
-            title: 'Bathrooms domestic & commercial New Build',
-            desc: 'Our solutions are built for durability, hygiene, and compliance with all current regulations.',
-          },
-          {
-            img: '/air-source.PNG',
-            title: 'ASHP Installation',
-            desc: 'Whether you are upgrading your home, developing a new property, or improving commercial energy performance, we provide tailored ASHP solutions to meet your needs.',
-          },
-        ].map((service, i) => (
+        {services.map((service, i) => (
           <motion.div
             key={i}
             custom={i}
@@ -65,7 +67,13 @@ export default function ServicesSection() {
             viewport={{ once: true }}
             className="dark:bg-black bg-white shadow-lg dark:shadow-[0_10px_15px_rgba(255,255,255,0.5)] rounded-xl p-6 flex flex-col items-center text-center space-y-4"
           >
-            <img src={service.img} alt={service.title} className="w-12 h-12" />
+            <Image
+              src={service.img}
+              alt={service.title}
+              width={48}
+              height={48}
+              className="w-12 h-12 object-contain"
+            />
             <h3 className="font-semibold text-lg">{service.title}</h3>
             <p className="text-gray-600 dark:text-gray-300">{service.desc}</p>
           </motion.div>

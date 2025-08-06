@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ModeToggle } from './ModeToggle';
+import Images from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +30,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <div className="w-10 h-10 bg-black dark:bg-gray-500 rounded-lg flex items-center justify-center">
-                <img className='mr-2' src="/logo.PNG" alt="logo" />
+                <Images className='mr-2' src="/logo.PNG" alt="logo" />
               </div>
               {/* <span className="ml-2 text-xl font-bold text-gray-900"></span> */}
             </Link>

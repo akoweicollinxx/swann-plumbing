@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 const images = [
   '/img1.jpg',
   '/img2.jpg',
@@ -29,10 +31,12 @@ export default function GallerySection() {
               key={idx}
               className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
             >
-              <img
+              <Image
                 src={src}
                 alt={`Gallery image ${idx + 1}`}
-                className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
+                width={400}
+                height={300}
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
           ))}

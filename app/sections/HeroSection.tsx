@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
@@ -45,11 +46,7 @@ export default function HeroSection() {
           transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
           className="mt-10 md:mt-0 z-10"
         >
-          <img
-            src="/bus.PNG"
-            alt="TDC Plumbing Van"
-            className="w-[300px] md:w-[850px] object-contain"
-          />
+          <Image src="/bus.PNG" alt="desc" width={300} height={850} />
         </motion.div>
       </div>
     </section>

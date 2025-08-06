@@ -6,6 +6,7 @@ import { Navigation, Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Image from 'next/image';
 
 const testimonials = [
   {
@@ -42,7 +43,7 @@ export default function TestimonialsSection() {
           <div className="flex items-center space-x-6">
             {/* Which */}
             <div className="flex items-center space-x-2">
-              <img src="/Google.webp" alt="Which logo" className="h-6" />
+              <Image src="/Google.webp" alt="Which logo" className="h-6" />
               <div>
                 <p className="text-yellow-400">★★★★★</p>
                 <p className="text-sm text-gray-400">71 Reviews</p>
