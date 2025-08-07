@@ -32,7 +32,7 @@ const Header = () => {
                   alt="logo"
                   width={40}
                   height={40}
-                  className="object-contain"
+                  className="object-contain mr-2 mt-1"
                   priority
                 />
               </div>
