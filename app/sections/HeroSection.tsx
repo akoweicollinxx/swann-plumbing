@@ -46,7 +46,7 @@ export default function HeroSection() {
           transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
           className="mt-10 md:mt-0 z-10"
         >
-          <Image src="/bus.png" alt="desc" width={300} height={850} />
+          <Image src="/bus.png" alt="desc" width={900} height={950} />
         </motion.div>
       </div>
     </section>
